@@ -1,0 +1,21 @@
+{
+  "name": "bluecode-theme",
+  "displayName": "BlueCode Theme",
+  "description": "Colors to keep you focused on the task at hand",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BlueCode Theme",
+        "uiTheme": "vs",
+        "path": "./themes/BlueCode Theme-color-theme.json"
+      }
+    ]
+  }
+}
